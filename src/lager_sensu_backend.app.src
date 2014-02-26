@@ -1,0 +1,11 @@
+{application, lager_sensu_backend, [
+  {description, "Lager Sensu Backend"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    lager
+  ]}
+  {env, []}
+]}.
